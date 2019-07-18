@@ -5,6 +5,6 @@
  */
 class BadClass {
 	public function foo() {
-		$bar = \OC_API::ADMIN_AUTH;
+		$bar = \OCP\API::RESPOND_UNKNOWN_ERROR;
 	}
 }
